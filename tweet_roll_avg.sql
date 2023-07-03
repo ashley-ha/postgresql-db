@@ -1,7 +1,7 @@
 -- calculate the 3-day rolling average of tweets per user
 -- output: user_id, tweet_date, rolling avgs to 2 decimals
 -- running mean
-
+-- 
 select user_id, tweet_date, round(rolling_avg, 2) as rolling_avg_3d
 from (
 select 
