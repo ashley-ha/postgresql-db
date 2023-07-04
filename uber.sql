@@ -15,3 +15,4 @@ select user_id, spend, transaction_date,
 	) AS trans_num
 	
 	WHERE row_num = 3;
+
